@@ -49,7 +49,6 @@ void OnDeinit(const int reason)
 //+------------------------------------------------------------------+
 void OnTick()
   {
-//---
    string methodname = "OnTick()";
    if (iTime(_Symbol, PERIOD_CURRENT, 0) == lastCandleOpenTime) return;
    lastCandleOpenTime=iTime(_Symbol, PERIOD_CURRENT, 0);
